@@ -42,8 +42,6 @@ def root():
     status_code = get_status_code(random_entry)
     message = get_message(random_entry)
 
-    print(status_code)
-
     return message, status_code
 
 if __name__ == '__main__':
