@@ -35,6 +35,7 @@ def get_message(random_entry):
     message = f'{random_entry[0]} - {random_entry[1]}'
     return message
 
+
 @app.route("/")
 def root():
     random_entry = get_random_status_code_with_message()
